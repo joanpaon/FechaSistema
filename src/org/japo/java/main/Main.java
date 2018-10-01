@@ -39,10 +39,11 @@ public class Main {
         
         // Obtener valores
         d = gc.get(Calendar.DAY_OF_MONTH);
+//        d = gc.get(Calendar.DATE);
         m = gc.get(Calendar.MONTH) + 1;
         a = gc.get(Calendar.YEAR);
         
         // Mensaje
-        System.out.printf("Fecha del sistema ...: %02d/%02d/%d\n", d, m, a);
+        System.out.printf("Fecha del sistema ...: %02d/%02d/%d%n", d, m, a);
     }
 }
